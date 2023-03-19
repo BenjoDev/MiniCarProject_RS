@@ -10,7 +10,8 @@ public class TileManager : MonoBehaviour
     private float tileSpawnZ = -10.0f;
     [SerializeField]
     private float tileLenght = 10.0f;
-    private int amountOfTiles = 9;
+    [SerializeField]
+    private int amountOfTiles = 4;
     private List<GameObject> tiles = new List<GameObject>();
     
     [SerializeField]
@@ -33,9 +34,9 @@ public class TileManager : MonoBehaviour
         foreach (GameObject obj in tiles)
         {
             obj.transform.Translate(0, 0, tileSpeed * Time.deltaTime);
-            if (obj.transform.position.z < -20) 
+            if (obj.transform.position.z < -(tileLenght)) 
             {
-                obj.transform.position = new Vector3(0, 0, 70);
+                obj.transform.position = new Vector3(0, 0, tileLenght * (amountOfTiles - 1));
             }
         }
     }
