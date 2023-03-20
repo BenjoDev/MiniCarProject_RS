@@ -209,14 +209,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 170967743}
-  m_LocalRotation: {x: 0.06593765, y: -0, z: -0, w: 0.9978238}
-  m_LocalPosition: {x: 12.37, y: -10.01, z: -16.5}
+  m_LocalRotation: {x: 0.22379915, y: -0, z: -0, w: 0.9746353}
+  m_LocalPosition: {x: 0, y: 3.39, z: -4.93}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 7.561, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 25.865, y: 0, z: 0}
 --- !u!114 &170967747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -377,11 +377,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ccb19134586d124099c6033649bc334, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 615908370474624207, guid: c91fae5f3f2fd734090531eec39e772b,
+  enemyPrefab: {fileID: 1579341074201730711, guid: 1e1b3dd91ae99014694ce6825384e73e,
     type: 3}
   enemySpeed: -2
   enemySpawnZ: 14
-  enemySpawnDistance: 2
+  enemySpawnDistance: 5
 --- !u!4 &1302404921
 Transform:
   m_ObjectHideFlags: 0
@@ -426,12 +426,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddf9152ad5dee734d912f777b638730b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tilePrefab: {fileID: 7488977858350607309, guid: 4c4153ee06412ab41bd67a889c66b8fa,
+  tilePrefab: {fileID: 5866236240699374921, guid: cc5075c6a995a814f99e4626c581e0c9,
     type: 3}
-  tileSpawnZ: -59
-  tileLenght: 59
+  tileSpawnZ: -10
+  tileLenght: 10
   amountOfTiles: 8
-  tileSpeed: -40
+  tileSpeed: -5
 --- !u!4 &1463357026
 Transform:
   m_ObjectHideFlags: 0
@@ -585,18 +585,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1714204370191597749, guid: 81aec0a58e42de44299da42ad0aa10d9,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.31264144
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714204370191597749, guid: 81aec0a58e42de44299da42ad0aa10d9,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.13324752
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714204370191597749, guid: 81aec0a58e42de44299da42ad0aa10d9,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.10980596
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714204370191597749, guid: 81aec0a58e42de44299da42ad0aa10d9,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12
+      value: -0.0090625
       objectReference: {fileID: 0}
     - target: {fileID: 1714204370191597749, guid: 81aec0a58e42de44299da42ad0aa10d9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -16
+      value: 0.060499
       objectReference: {fileID: 0}
     - target: {fileID: 1714204370191597749, guid: 81aec0a58e42de44299da42ad0aa10d9,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.2
+      value: -0.18682
       objectReference: {fileID: 0}
     - target: {fileID: 1714204370191597749, guid: 81aec0a58e42de44299da42ad0aa10d9,
         type: 3}

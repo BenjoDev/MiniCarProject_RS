@@ -32,9 +32,9 @@ public class EnemyManager : MonoBehaviour
             if (obj.transform.position.z < -20)
             {
                 if (Random.value < 0.5f)
-                    obj.transform.position = new Vector3(0.9f, 0.25f, 60);
+                    obj.transform.position = new Vector3(0.85f, 0.65f, 70);
                 else
-                    obj.transform.position = new Vector3(-0.9f, 0.25f, 60);
+                    obj.transform.position = new Vector3(-0.65f, 0.65f, 70);
                 
             }
         }
@@ -52,10 +52,10 @@ public class EnemyManager : MonoBehaviour
         go.transform.SetParent(transform);
         if (Random.value < 0.5f)
         {
-            go.transform.position = new Vector3(0.9f, 0.25f, enemySpawnZ);
+            go.transform.position = new Vector3(0.85f, 0.65f, enemySpawnZ);
         } else
         {
-            go.transform.position = new Vector3(-0.9f, 0.25f, enemySpawnZ);
+            go.transform.position = new Vector3(-0.65f, 0.65f, enemySpawnZ);
         }   
 
         enemySpawnZ += enemySpawnDistance;
