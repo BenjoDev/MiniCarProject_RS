@@ -55,6 +55,6 @@ public class PlayerController : MonoBehaviour
 
     private void Fire(InputAction.CallbackContext context)
     {
-        Debug.Log("test");
+        //Debug.Log("test");
     }
 }

@@ -40,11 +40,6 @@ public class EnemyManager : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-
-    }
-
     private GameObject SpawnEnemy()
     {
         GameObject go;
