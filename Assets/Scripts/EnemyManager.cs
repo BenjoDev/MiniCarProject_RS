@@ -12,7 +12,7 @@ public class EnemyManager : MonoBehaviour
     private float enemySpawnZ = 15.0f;
     [SerializeField]
     private float enemySpawnDistance = 5.0f;
-    private int amountOfEnemies = 18;
+    private int amountOfEnemies = 13;
 
     // Start is called before the first frame update
     void Start()
